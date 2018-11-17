@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <title>{{GameName}}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width" initial-scale="1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>{{GameName}}</h1>
+        TODO: top nav partial
+    </header>
+    <nav>
+        TODO: side nav partial
+    </nav>
+    <main>
+        <section class="character-details">
+            <figure>
+                <img src="{{CharacterImageUrl}}" alt="{{CharacterName}}">
+                <figcaption>{{CharacterName}}</figcaption>
+                {{CharacterDescription}}
+            </figure>
+        </section>
+        <section class="character-title">
+            <table>
+                <thead>
+                    <tr>
+                        {{#ScriptVersions}}
+                        <th>{{ScriptVersion}}</th>
+                        {{/ScriptVersions}}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        {{#ScriptVersions}}
+                        <td>{{CharacterTitle}}</td>
+                        {{/ScriptVersions}}
+                    </tr>
+                </tbody>
+            </table>
+            <cite>{{CharacterTitleCitation}}</cite>
+            {{#CharacterTitleCommentaryContent}}
+            <p>{{.}}</p>
+            {{/CharacterTitleCommentaryContent}}
+        </section>
+        {{#Quotes}}
+        <section class="quote">
+            <h4>{{QuoteTitle}}</h4>
+            <table>
+                <thead>
+                    <tr>
+                        {{#QuoteVersions}}
+                        <th>{{QuoteVersion}}</th>
+                        {{/QuoteVersions}}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        {{#QuoteVersions}}
+                        <td>
+                            <figure>
+                                <img src="{{ImageUrl}}" alt="{{QuoteText}}">
+                                <figcaption>{{QuoteText}}</figcaption>
+                                <cite>{{QuoteCitation}}</cite>
+                            </figure>
+                        </td>
+                        {{/QuoteVersions}}
+                    </tr>
+                </tbody>
+            </table>
+            {{#QuoteCommentaryContent}}
+                <p>{{.}}</p>
+            {{/QuoteCommentaryContent}}
+        </section>
+        {{/Quotes}}
+    </main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+C:\GitProjects\ssp\Ssp\bin\HPD\Debug\netcoreapp2.1\Ssp.deps.json
+C:\GitProjects\ssp\Ssp\bin\HPD\Debug\netcoreapp2.1\Ssp.runtimeconfig.json
+C:\GitProjects\ssp\Ssp\bin\HPD\Debug\netcoreapp2.1\Ssp.runtimeconfig.dev.json
+C:\GitProjects\ssp\Ssp\bin\HPD\Debug\netcoreapp2.1\Ssp.dll
+C:\GitProjects\ssp\Ssp\bin\HPD\Debug\netcoreapp2.1\Ssp.pdb
+C:\GitProjects\ssp\Ssp\obj\HPD\Debug\netcoreapp2.1\Ssp.csprojAssemblyReference.cache
+C:\GitProjects\ssp\Ssp\obj\HPD\Debug\netcoreapp2.1\Ssp.csproj.CoreCompileInputs.cache
+C:\GitProjects\ssp\Ssp\obj\HPD\Debug\netcoreapp2.1\Ssp.AssemblyInfoInputs.cache
+C:\GitProjects\ssp\Ssp\obj\HPD\Debug\netcoreapp2.1\Ssp.AssemblyInfo.cs
+C:\GitProjects\ssp\Ssp\obj\HPD\Debug\netcoreapp2.1\Ssp.dll
+C:\GitProjects\ssp\Ssp\obj\HPD\Debug\netcoreapp2.1\Ssp.pdb

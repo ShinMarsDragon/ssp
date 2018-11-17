@@ -1,0 +1,79 @@
+{
+    "GameName": "Fatal Fury 2/Special",
+    "CharacterName": "Terry Bogard",
+    "ScriptVersions": [
+        {
+            "ScriptVersion": "Literal Translation",
+            "CharacterTitle": "Martial Arts Expert"
+        },
+        {
+            "ScriptVersion": "Official Translation (FF2)",
+            "CharacterTitle": "Martial Arts Master"
+        },
+        {
+            "ScriptVersion": "Official Translation (FFS)",
+            "CharacterTitle": "Martial Arts Expert"
+        }
+    ],
+    "CharacterTitleCitation": "Sourced from The Arcade Flyer Archive.",
+    "CharacterTitleCommentaryContent": [
+        "...yep.",
+        "Master vs Expert is two different translations of the same word. That's the difference.",
+        "I promise everyone else is more exciting."
+    ],
+    "Quotes": [
+        {
+            "QuoteTitle": "Normal Intro",
+            "QuoteVersions": [
+                {
+                    "QuoteVersion": "Literal Translation",
+                    "QuoteText": "It's been awhile since I last fought, so I'm raring to go. You'd better be prepared for some bruises!",
+                    "ImageUrl": "https://madsnkproject.blob.core.windows.net/ff2s/terryintronormalspj.png"
+                },
+                {
+                    "QuoteVersion": "Official Translation (FF2)",
+                    "QuoteText": "It's been a long time since I fought. I have too much power, get ready to be hurt!",
+                    "ImageUrl": "https://madsnkproject.blob.core.windows.net/ff2s/terryintro2e.png"
+                },
+                {
+                    "QuoteVersion": "Official Translation (FFS)",
+                    "QuoteText": "It's been quite awhile since my last fight. I'm ready to maul!",
+                    "ImageUrl": "https://madsnkproject.blob.core.windows.net/ff2s/terryintronormalspe.png"
+                }
+            ],
+            "QuoteCommentaryContent": [
+                "The \"it's been awhile\" -> \"too much high power man\" isn't really there in either translation, which is interesting. The more literal translation of FF2 moves the phrase to the second sentence, so it sounds like Terry just always has too much power instead of it being a consequence of not punching someone often enough for his tastes. Special takes it out completely.",
+                "Special also punches up the bit about getting hurt. The line is more \"be prepared for some/a few injuries\", which FF2 translated fairly literally. I specified bruises because that sounded more natural to me."
+            ]
+        },
+        
+        {
+            "QuoteTitle": "Normal Win",
+            "QuoteVersions": [
+                {
+                    "QuoteVersion": "Literal Translation",
+                    "QuoteText": "Sorry, but I guess today’s my lucky day.",
+                    "ImageUrl": "https://madsnkproject.blob.core.windows.net/ff2s/terrywinnormalspj.png",
+                    "QuoteCitation": "Translation provided by Upthorn! Thank you!"
+                },
+                {
+                    "QuoteVersion": "Official Translation (FF2)",
+                    "QuoteText": "Ha ,ha ,ha....sorry, but I'm no pushover.",
+                    "ImageUrl": "https://madsnkproject.blob.core.windows.net/ff2s/terrywin12e.png"
+                },
+                {
+                    "QuoteVersion": "Official Translation (FFS)",
+                    "QuoteText": "Wubba wubba. I'm in the pink today, boy!",
+                    "ImageUrl": "https://madsnkproject.blob.core.windows.net/ff2s/terrywinnormalspe.png"
+                }
+            ],
+            "QuoteCommentaryContent": [
+                "First, some explanation of FFS' translation. \"In the pink\" is actually a legitimate English phrase that goes back quite a long time and means \"to be in perfect physical condition\". Meanwhile, \"wubba wubba\" was a phrase used by Downtown Julie Brown on MTV in the early 90s. Taken all together, Terry is just saying he's feeling great and likes watching MTV. No, it's not a symptom getting hit in the head too much. Really. I swear.",
+                "The word used in Japanese can mean \"everything's going well\" or \"in perfect condition\". Upthorn went with the first, while whoever did FFS went with the second. So that's just a translation difference. It is odd that FFS took out the apology, but I suppose that goes along with toughening up everyone's dialog.",
+                "Meanwhile, it's the FF2 translation I can't figure out. The laugh is there in Japanese too, it's a minor difference between FF2 and FFS. But how did they get \"I'm no pushover\" from \"I'm in perfect form/everything's going well\"? I can sort of see it if I squint, but I'm not used to having to do that for FF2.",
+                "Still, you can clearly see the difference. Grabbing a native speaker to do/help with Special adds in English idioms and pop cultural references that you just don't see in say, FF1 or 2. Terry, being the character they clearly put the most effort into, frequently has his lines punched into another dimension, but effort was absolutely being made to make him sound natural and American.",
+                "Just, you know, also completely insane."
+            ]
+        }
+    ]
+}
