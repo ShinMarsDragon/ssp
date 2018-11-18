@@ -8,71 +8,84 @@
 <body>
     <header>
         <h1>{{GameName}}</h1>
-        TODO: top nav partial
+        <nav class="site-nav">TODO: top nav partial</nav>
     </header>
-    <nav>
-        TODO: side nav partial
-    </nav>
     <main>
-        <section class="character-details">
-            <figure>
-                <img src="{{CharacterImageUrl}}" alt="{{CharacterName}}">
-                <figcaption>{{CharacterName}}</figcaption>
-                {{CharacterDescription}}
-            </figure>
-        </section>
-        <section class="character-title">
-            <table>
-                <thead>
-                    <tr>
-                        {{#ScriptVersions}}
-                        <th>{{ScriptVersion}}</th>
-                        {{/ScriptVersions}}
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        {{#ScriptVersions}}
-                        <td>{{CharacterTitle}}</td>
-                        {{/ScriptVersions}}
-                    </tr>
-                </tbody>
-            </table>
-            <cite>{{CharacterTitleCitation}}</cite>
-            {{#CharacterTitleCommentaryContent}}
-            <p>{{.}}</p>
-            {{/CharacterTitleCommentaryContent}}
-        </section>
-        {{#Quotes}}
-        <section class="quote">
-            <h4>{{QuoteTitle}}</h4>
-            <table>
-                <thead>
-                    <tr>
-                        {{#QuoteVersions}}
-                        <th>{{QuoteVersion}}</th>
-                        {{/QuoteVersions}}
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        {{#QuoteVersions}}
-                        <td>
-                            <figure>
-                                <img src="{{ImageUrl}}" alt="{{QuoteText}}">
-                                <figcaption>{{QuoteText}}</figcaption>
-                                <cite>{{QuoteCitation}}</cite>
-                            </figure>
-                        </td>
-                        {{/QuoteVersions}}
-                    </tr>
-                </tbody>
-            </table>
-            {{#QuoteCommentaryContent}}
+        <article>
+            <header class="character-details">
+                <figure>
+                    <img src="{{CharacterImageUrl}}" alt="{{CharacterName}}">
+                    <figcaption>{{CharacterName}}</figcaption>
+                    {{CharacterDescription}}
+                </figure>
+                TODO: maybe a table of contents?
+            </header>
+            <section class="character-title">
+                <table>
+                    <thead>
+                        <tr>
+                            {{#ScriptVersions}}
+                            <th>{{ScriptVersion}}</th>
+                            {{/ScriptVersions}}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            {{#ScriptVersions}}
+                            <td>{{CharacterTitle}}</td>
+                            {{/ScriptVersions}}
+                        </tr>
+                    </tbody>
+                </table>
+                {{#CharacterTitleCitation}}<cite>{{.}}</cite>{{/CharacterTitleCitation}}
+                {{#CharacterTitleCommentaryContent}}
                 <p>{{.}}</p>
-            {{/QuoteCommentaryContent}}
-        </section>
-        {{/Quotes}}
+                {{/CharacterTitleCommentaryContent}}
+            </section>
+            {{#Quotes}}
+            <section class="quote">
+                <h4>{{QuoteTitle}}</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            {{#QuoteVersions}}
+                            <th>{{QuoteVersion}}</th>
+                            {{/QuoteVersions}}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            {{#QuoteVersions}}
+                            <td>
+                                <figure>
+                                    <img src="{{ImageUrl}}" alt="{{QuoteText}}">
+                                    <figcaption>
+                                        <blockquote>{{QuoteText}}</blockquote>
+                                        {{#QuoteCitation}}<cite>{{.}}</cite>{{/QuoteCitation}}
+                                    </figcaption>
+                                </figure>
+                            </td>
+                            {{/QuoteVersions}}
+                        </tr>
+                    </tbody>
+                </table>
+                {{#QuoteCommentaryContent}}
+                    <p>{{.}}</p>
+                {{/QuoteCommentaryContent}}
+            </section>
+            {{/Quotes}}
+        </article>
+        <aside>
+            <nav class="game-nav">
+            TODO:
+                <ul>
+                <li>Side</li>
+                <li>nav</li>
+                <li>partial</li>
+                <li>goes here</li>
+                </ul>
+            </nav>
+        </aside>
     </main>
 </body>
 </html>

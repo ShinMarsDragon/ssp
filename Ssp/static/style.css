@@ -1,0 +1,64 @@
+body {
+    background-color: lightgray;
+}
+
+body > * {
+    margin: auto;
+    width: max-content;
+}
+
+body > main {
+    display: flex;
+}
+
+main > article {
+    width: min-content;
+    background-color: white;
+    padding: 1rem;
+}
+
+main > aside {
+    background-color: darkgray;
+    padding: 1rem;
+}
+
+.game-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+article table {
+    border-collapse: collapse;
+}
+
+article th, article td {
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 0.25rem;
+}
+
+article figure {
+    width: min-content;
+}
+
+article figure > * + * {
+    margin-top: 1rem;
+}
+
+figcaption > blockquote {
+    margin: 0;
+}
+
+blockquote + cite {
+    display: block;
+    margin-top: 1rem;
+}
+
+article > section + section {
+    margin-top: 1rem;
+    border-top: 1px dashed lightgray;
+}
+
+article p:last-child {
+    margin-bottom: 0;
+}
